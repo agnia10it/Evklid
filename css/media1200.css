@@ -1,0 +1,45 @@
+@media (max-width: 1600px) {
+  .about__cards {
+    flex-direction: column;
+  }
+
+  .about__left {
+    width: 100%;
+    min-height: 640px;
+  }
+  .about__right-content {
+    width: 100%;
+  }
+
+  .phase__content {
+    max-width: 50%
+  }
+
+  .question__cards {
+    flex-direction: column;
+  }
+
+  .question__card {
+    max-width: 100%;
+  }
+
+  .question__subtitle {
+    max-width: 100%;
+  }
+
+  .question__text {
+    max-width: 100%;
+}
+
+.footer__left {
+  width: 33%;
+}
+
+.footer__center {
+  flex-shrink: 0;
+  max-width: 540px;
+}
+.footer__btn {
+  padding: 17px 37px;
+}
+}

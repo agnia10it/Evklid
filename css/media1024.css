@@ -1,0 +1,98 @@
+@media (max-width: 1200px) {
+  .header {
+    padding-bottom: 44px;
+  }
+
+  .header__container {
+    padding: 20px 50px;
+  }
+
+  .header__logo-img {
+    max-width: 150px;
+  }
+
+  :root {
+    --gap-header-nav: 60px;
+  }
+
+  .header__nav {
+    align-items: center;
+    margin-right: auto;
+  }
+
+  .hero__content {
+    padding: 160px 77px;
+  }
+
+  .hero__title {
+    margin-bottom: 16px;
+    max-width: 100%;
+    font-size: 60px;
+  }
+
+  .hero__descr {
+    margin-bottom: 62px;
+    max-width: 100%;
+    font-size: 20px;
+  }
+
+  .about {
+    padding: 35px 0;
+  }
+
+
+  .about__descr {
+    margin-bottom: 58px;
+    max-width: 100%;
+  }
+
+  .about__card {
+    padding-left: 318px;
+    padding-right: 120px;
+    background-position: 78px center;
+  }
+
+  .phase {
+    padding: 44px 0;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+  .title_mb22 {
+    margin-bottom: 22px;
+  }
+
+  .phase__content {
+    margin-right: 50px;
+    width: calc((100% - 50px) / 2);
+  }
+
+  .phase__right {
+    margin-top: 10px;
+    width: calc((100% - 50px) / 2);
+  }
+
+  .phase__text:last-of-type {
+    margin-bottom: 25px;
+  }
+
+  .question {
+    padding-top: 37px;
+    padding-bottom: 81px;
+  }
+
+  .footer__left {
+    width: 50%;
+    max-width: 540px;
+  }
+
+  .input_textarea {
+    margin-bottom: 4px;
+}
+
+  .footer__right {
+    display: none;
+  }
+}

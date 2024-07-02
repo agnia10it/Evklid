@@ -1,0 +1,142 @@
+@media (max-width:767px) {
+
+  .header__container {
+    padding: 17px 15px;
+  }
+
+  :root {
+    --gap-header-nav: 24px;
+    --border-radius: 24px;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+  }
+
+  .hero__title {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 18px 38px;
+    font-size: 16px;
+  }
+
+  .about {
+    padding: 36px 0;
+  }
+
+  .about__descr {
+    margin-bottom: 25px;
+  }
+
+  .about__left {
+    min-height: 450px;
+  }
+
+  .about__left-content {
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 30px;
+  }
+
+  .about__left-text {
+    max-width: 100%;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .about__card {
+    padding: 30px;
+    padding-top: 100px;
+    background-position: 30px 30px;
+    background-size: 64px 49px;
+  }
+
+  .about__card_box {
+    background-image: url("../img/bg-card1-min.svg");
+  }
+
+  .about__card_gear {
+    background-image: url("../img/bg-card2-min.svg");
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .phase__right {
+    margin-bottom: 32px;
+    min-height: 200px;
+  }
+
+  .question__card {
+    padding: 30px;
+  }
+
+  .question {
+    padding-bottom: 59px;
+  }
+
+  .footer__container {
+    gap: 25px;
+  }
+
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid var(--color-input-active);
+  }
+
+  .footer__logo {
+    margin-bottom: 0;
+    padding: 16px 0;
+  }
+
+  .footer__center {
+    width: 100%;
+    max-width: 540px;
+  }
+
+  .form__submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .footer__btn {
+    margin-right: 0;
+  }
+
+  .hero__content {
+    background-image: url("../img/bg-hero-small.jpg");
+  }
+
+  .about__left {
+    background-image: url("../img/about-bg-small.png");
+  }
+
+  .phase__right {
+    background-image: url("../img/bg-stages-small.png");
+  }
+
+}

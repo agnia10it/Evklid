@@ -1,0 +1,156 @@
+.footer {
+  padding: 50px 0;
+  color: var(--color-footer-text);
+  background-color: var(--color-footer-bg);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.footer__left {
+  width: 20.5%;
+  min-width: 252px;
+}
+
+.footer__logo-img {
+  flex-shrink: 0;
+  max-width: 224px;
+  height: auto;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 16px;
+  outline-offset: 5px;
+  outline: 2px solid transparent;
+  transition: outline-color 0.3s;
+}
+
+.footer__logo:focus-visible {
+  outline-color: var(--color-def-link);
+}
+
+.footer__list {
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 90px;
+}
+
+.footer__link {
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--color-footer-text);
+  outline-offset: 5px;
+  outline: 2px solid transparent;
+  transition: outline-color 0.3s, color 0.3s;
+}
+
+.footer__link:focus-visible:not(:hover):not(:active) {
+  outline-color: var(--color-def-link);
+}
+
+.footer__link:hover {
+  color: var(--color-def-link);
+}
+
+.footer__link:active {
+  color: var(--color-active-link);
+}
+
+.social__link {
+  display: inline-block;
+  outline-offset: 5px;
+  outline: 2px solid transparent;
+  transition: outline-color 0.3s;
+}
+
+.social__link:not(:last-of-type) {
+  margin-right: 21px;
+}
+
+.social__link:focus-visible:not(:hover):not(:active) {
+  outline-color: var(--color-def-link);
+}
+
+.social__img {
+  fill: var(--color-input-bg);
+  transition: fill 0.3s;
+}
+
+.social__img:hover {
+  fill: var(--color-def-link);
+}
+
+.social__img:active {
+  fill: var(--color-active-link);
+}
+
+
+
+.footer__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  max-width: 50%;
+}
+
+.footer__title {
+  margin-bottom: 25px;
+  color: var(--color-footer-text);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  padding: 14px 24px;
+  max-width: 570px;
+  height: 60px;
+  border-radius: 16px;
+  color: var(--color-footer-text);
+  background-color: var(--color-input-active);
+  transition: background-color 0.3s, color 0.3s;
+  border: none;
+}
+
+.input:focus-visible,
+.input:hover,
+.input:active {
+  outline: none;
+  background-color: var(--color-input-bg)
+}
+
+.input:active {
+  color: var(--color-reverse-text);
+}
+
+.input_textarea {
+  min-height: 150px;
+  margin-bottom: 7px;
+  line-height: 32px;
+}
+
+
+.footer__btn {
+  margin-right: 19px;
+  padding: 17px 53px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer__right {
+  justify-self: right;
+  align-self: center;
+  max-width: 363px;
+}
+
+.text_white {
+  color: var(--color-footer-text);
+}
